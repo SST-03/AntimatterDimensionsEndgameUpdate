@@ -213,7 +213,7 @@ export const DC = deepFreeze({
   E1E15:                new Decimal("1e1000000000000000"),
   E9E15:                new Decimal("1e9000000000000000"),
 
-  //Hardcoded post-e9e15 values to be reformatted later
+  // Hardcoded post-e9e15 values to be reformatted later
   E9E115:               Decimal.pow(10, 9e115),
   E1E300:               Decimal.pow(10, 1e300),
   ENUMMAX:              Decimal.pow(10, Number.MAX_VALUE),

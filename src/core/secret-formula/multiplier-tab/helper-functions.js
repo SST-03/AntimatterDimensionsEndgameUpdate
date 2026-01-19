@@ -41,7 +41,7 @@ export const MultiplierTabHelper = {
     const effects = this.globalGalaxyMult();
 
     let galFrac, tickFrac;
-    if (effectiveCount < 3) {
+    if (effectiveCount.lt(3)) {
       let baseMult = 1.1245;
       if (player.galaxies === 1) baseMult = 1.11888888;
       if (player.galaxies === 2) baseMult = 1.11267177;
